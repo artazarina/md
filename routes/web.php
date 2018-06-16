@@ -19,7 +19,6 @@ Route:: get('/about', function(){
   return view('pages.about');
 });
 
-/*Route:: get('/users/{id}/{name}', function($id, $name){
+*Route:: get('/users/{id}/{name}', function($id, $name){
   return 'This is user '.$name.' w/ '.$id;
 });
-*/
