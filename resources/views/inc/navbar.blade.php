@@ -8,10 +8,10 @@
         <a class="nav-link" href="/">Home</a>
       </LI>
       <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
+        <a class="nav-link" href="/news">Newsletter</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/services">Services</a>
+        <a class="nav-link" href="/merch">Merch</a>
       </li>
     </ul>
   </div>
