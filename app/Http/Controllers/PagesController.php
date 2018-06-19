@@ -18,9 +18,6 @@ class PagesController extends Controller
 
     public function merch(){
       $title = 'Merch';
-      $products = Product::inRandomOrder()->take()->get();
-
-      return view('pages.merch')->with('products', $products);
       return view('pages.merch')->with('title', $title);
     }
 
