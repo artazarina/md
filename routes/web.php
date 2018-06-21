@@ -34,3 +34,14 @@ Route::get('post', function(){
 })->name('post');
 
 Route::get('/merch', 'PagesController@merch');
+/*takes you to /admin if you are logged in.
+You are taken there from AdminController, then to admin.blade.php
+*/
+Route::get('/admin', 'AdminController@index');
+
+/*should take you to you to /user if you are logged in.
+Is not properly set up yet, tho
+*/
+Route::get('/user', 'UserController@index');
+
+Auth::routes();
