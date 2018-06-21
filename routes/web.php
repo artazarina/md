@@ -25,6 +25,12 @@ Route:: get('/users/{id}/{name}', function($id, $name){
 
 Route::get('/', 'PagesController@index');
 
-Route::get('/news', 'PagesController@news');
+Route::get('/news', function(){
+  return view('user/news');
+});
+
+Route::get('post', function(){
+  return view('user/layouts/post');
+})->name('post');
 
 Route::get('/merch', 'PagesController@merch');
