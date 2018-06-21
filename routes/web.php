@@ -28,3 +28,6 @@ Route::get('/', 'PagesController@index');
 Route::get('/news', 'PagesController@news');
 
 Route::get('/merch', 'PagesController@merch');
+
+Route::get('/subscribers', 'SubscribersController');
+Route::controller('subscribers', 'SubscribersController');
