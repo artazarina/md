@@ -6,4 +6,14 @@ users don't work properly yet - redirects you to /home which doesn't exist but
 yet to add log in as admin feature
 top dashboard needs fixing because one cannot really log out unless they know
   the necessary link. Mani interesē, kā sasaistīt layoutā
-  css failu atpakaļ ar Bootstrap. Izskatās, ka tas pašreiz nobrucis. 
+  css failu atpakaļ ar Bootstrap. Izskatās, ka tas pašreiz nobrucis.
+
+
+25 jun - general
+Head user/layouts/head.blade.php ir .css linki uz visu
+attiecīgi, footer ir .js linki
+routes/web.php ir visas saites uz lapām
+news.blade.php - ieskats tajā, kā izskatās lapa
+post.blade.php - statiskais teksts pirmajam newsletter ierakstam
+
+21.00 - index.blade.php replace text with buttons in cards

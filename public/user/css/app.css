@@ -1,0 +1,12 @@
+.card img{
+  max-height: 150px;
+}
+
+.price{
+  font-weight:600;
+  font-size: 2em
+}
+
+.card .desc{
+  color: #777777
+}
