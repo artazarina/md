@@ -33,7 +33,7 @@ Route::get('post', function(){
   return view('user/layouts/post');
 })->name('post');
 
-Route::get('/merch', 'PagesController@merch');
+Route::get('/merch', 'ProductController@getMerch');
 /*takes you to /admin if you are logged in.
 You are taken there from AdminController, then to admin.blade.php
 */
@@ -45,3 +45,5 @@ Is not properly set up yet, tho
 Route::get('/user', 'UserController@index');
 
 Auth::routes();
+
+//thing that sends you to a populated store
